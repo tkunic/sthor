@@ -7,7 +7,7 @@ from scipy import misc
 from resample import resample
 import pylab as pl
 
-l = misc.lena()[::2, ::2]/1.
+l = misc.ascent()[::2, ::2]/1.
 l.shape = l.shape + (1,)
 l = l.astype('float32')
 #a = np.random.randn(5, 3, 4).astype('float32')
